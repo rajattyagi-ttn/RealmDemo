@@ -16,6 +16,8 @@
 		044A966624ACA88600F04358 /* RealmDB_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A966524ACA88600F04358 /* RealmDB_DemoTests.swift */; };
 		044A967124ACA88700F04358 /* RealmDB_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A967024ACA88700F04358 /* RealmDB_DemoUITests.swift */; };
 		044A967F24ACAC2600F04358 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A967E24ACAC2600F04358 /* Student.swift */; };
+		044A968224ACBA0C00F04358 /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A968024ACBA0C00F04358 /* StudentTableViewCell.swift */; };
+		044A968324ACBA0C00F04358 /* StudentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044A968124ACBA0C00F04358 /* StudentTableViewCell.xib */; };
 		281C11F87644F2E253FA1F33 /* Pods_RealmDB_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F295C009E57E87A9B736ACF9 /* Pods_RealmDB_Demo.framework */; };
 		93306875C95CC88F0E04DC5F /* Pods_RealmDB_Demo_RealmDB_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92043E8D683CC7C92683A44C /* Pods_RealmDB_Demo_RealmDB_DemoUITests.framework */; };
 		F86C8B33E729DA645A43BEC9 /* Pods_RealmDB_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ABC68C6FC3E56685C80811A /* Pods_RealmDB_DemoTests.framework */; };
@@ -55,6 +57,8 @@
 		044A967024ACA88700F04358 /* RealmDB_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDB_DemoUITests.swift; sourceTree = "<group>"; };
 		044A967224ACA88700F04358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		044A967E24ACAC2600F04358 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		044A968024ACBA0C00F04358 /* StudentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
+		044A968124ACBA0C00F04358 /* StudentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentTableViewCell.xib; sourceTree = "<group>"; };
 		1F13B78E409840F6CE341B3A /* Pods-RealmDB Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmDB Demo.release.xcconfig"; path = "Target Support Files/Pods-RealmDB Demo/Pods-RealmDB Demo.release.xcconfig"; sourceTree = "<group>"; };
 		2ABC68C6FC3E56685C80811A /* Pods_RealmDB_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmDB_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6403A8A99575FF8126D08DE7 /* Pods-RealmDB Demo-RealmDB DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmDB Demo-RealmDB DemoUITests.release.xcconfig"; path = "Target Support Files/Pods-RealmDB Demo-RealmDB DemoUITests/Pods-RealmDB Demo-RealmDB DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +127,8 @@
 				044A965224ACA88300F04358 /* ViewController.swift */,
 				044A967E24ACAC2600F04358 /* Student.swift */,
 				044A965424ACA88300F04358 /* Main.storyboard */,
+				044A968024ACBA0C00F04358 /* StudentTableViewCell.swift */,
+				044A968124ACBA0C00F04358 /* StudentTableViewCell.xib */,
 				044A965724ACA88600F04358 /* Assets.xcassets */,
 				044A965924ACA88600F04358 /* LaunchScreen.storyboard */,
 				044A965C24ACA88600F04358 /* Info.plist */,
@@ -283,6 +289,7 @@
 				044A965B24ACA88600F04358 /* LaunchScreen.storyboard in Resources */,
 				044A965824ACA88600F04358 /* Assets.xcassets in Resources */,
 				044A965624ACA88300F04358 /* Main.storyboard in Resources */,
+				044A968324ACBA0C00F04358 /* StudentTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +418,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				044A965324ACA88300F04358 /* ViewController.swift in Sources */,
+				044A968224ACBA0C00F04358 /* StudentTableViewCell.swift in Sources */,
 				044A964F24ACA88300F04358 /* AppDelegate.swift in Sources */,
 				044A965124ACA88300F04358 /* SceneDelegate.swift in Sources */,
 				044A967F24ACAC2600F04358 /* Student.swift in Sources */,
