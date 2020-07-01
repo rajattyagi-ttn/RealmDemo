@@ -1,0 +1,6 @@
+framework module Pods_RealmDB_Demo_RealmDB_DemoUITests {
+  umbrella header "Pods-RealmDB Demo-RealmDB DemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
